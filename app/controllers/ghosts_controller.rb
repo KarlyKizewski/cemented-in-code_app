@@ -17,6 +17,13 @@ class GhostsController < ApplicationController
     end
   end
 
+  def show
+    @ghost = Ghost.find_by_id(params[:id])
+    if @ghost.blank?
+      render plain: 'Not Found', status: :not_found
+    end
+  end
+
   private
 
   def ghost_params

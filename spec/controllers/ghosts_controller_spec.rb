@@ -33,4 +33,17 @@ RSpec.describe GhostsController, type: :controller do
       expect(Ghost.count).to eq 0
     end
   end
+
+  describe "ghosts#show action" do
+    it "should successfully show the page if the ghost is found" do
+      ghost = FactoryBot.create(:ghost)
+      get :show, params: { id: ghost.id }
+      expect(response).to have_http_status(:success)
+    end
+
+    it "should return a 404 error if the ghost is not found" do
+      get :show, params: { id: 'silly' }
+      expect(response).to have_http_status(:not_found)
+    end
+  end
 end
