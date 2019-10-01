@@ -1,1 +1,9 @@
-<h1>all the ghosts</h1>
+<div class="row">
+  <% @ghosts.each do |ghost| %>
+    <div class="container col-6 col-sm-3 text-center">
+      <%= image_tag("#{rand(1..10)}.png") %>
+          <div class="top-centered"><%= ghost.person %></div>
+          <div class="centered"><%= ghost.eulogy %></div>
+    </div>
+  <% end %>
+</div>

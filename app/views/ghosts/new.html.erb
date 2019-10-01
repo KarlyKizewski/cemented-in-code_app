@@ -1,9 +1,11 @@
 <div class="col-8 offset-2">
-<h1>Departed Soul</h1>
+<h1>Who will be missed?</h1>
 
 <%= simple_form_for @ghost do |f| %>
   <%= f.input :person %>
+  <span>Pets are people too.</span>
+  <br /><br />
   <%= f.input :eulogy %>
-  <%= f.submit "RIP" %>
+  <%= f.submit "May this soul rest in peace." %>
 <% end %>
 </div>
