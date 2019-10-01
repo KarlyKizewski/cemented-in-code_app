@@ -27,11 +27,11 @@ textarea {
 
 .centered {
   position: absolute;
-  bottom: 25px;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100px;
-  font-size: 6px;
+  font-size: 4px;
 }
 
 .top-centered {
@@ -39,7 +39,7 @@ textarea {
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 9px;
+  font-size: 8px;
   width: 70px;
 }
 
