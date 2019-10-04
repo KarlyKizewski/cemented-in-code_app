@@ -11,10 +11,11 @@ img {
   max-width: 100%;
 }
 
-#footer {
+#navMenu {
   bottom: 0;
   width: 100%;
   position: fixed;
+  z-index: 999;
 }
 
 textarea {
@@ -23,6 +24,10 @@ textarea {
 
 .container img {
   max-width: 100%;
+}
+
+.container {
+  background-color: white;
 }
 
 .centered {
