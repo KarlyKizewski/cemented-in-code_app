@@ -1,24 +1,5 @@
-# README
+Cemented in Code - A Code-Based Cemetary.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Accessible anytime, anywhere (with Internet). Write a eulogy for a loved one and bury it in zeros and ones - eternal. This project was made after the loss of my family pup. I wanted to keep his memory here and visit him in a space that is clean, simple and approachable. More updates will be made to allow search capabilities and a pop-up for new headstone engravings - using Bootstrap Modal. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I hope for participation in this healing project. It means a lot to me and I welcome and value anyone who is open to it. 
